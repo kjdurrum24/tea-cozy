@@ -20,6 +20,7 @@ header {
 nav {
   text-align: right;
   flex-grow: 1;
+  padding-right: 25px;
 }
 
 nav span {
@@ -37,6 +38,11 @@ h2, h3, h4 {
 }
  div {
    display: block;
+ }
+
+ header img {
+   padding-left: 10px;
+   height: 50px;
  }
 
 .flex-container {
@@ -112,4 +118,10 @@ h2, h3, h4 {
   margin: 5px 20px;
   padding: 10px;
   opacity: 1.0;
+}
+
+/* Contact Section for Tea Cozy*/
+
+#contact {
+  height: 200px;
 }
