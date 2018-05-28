@@ -53,3 +53,26 @@ h2, h3, h4 {
   padding-top: 70px;
   background-size: cover;
 }
+
+.store {
+  height: 700px;
+  width: 1000px;
+  margin: auto;
+  padding-top: 70px;
+}
+
+.products {
+  padding: 5px;
+}
+
+.products img {
+  height: 200px;
+  margin: 10px;
+  display: block;
+}
+
+.products span {
+  display: block;
+  padding: 5px;
+  font-weight: bold;
+}
