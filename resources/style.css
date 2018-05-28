@@ -3,6 +3,7 @@ body {
   font-size: 22px;
   background-color: black;
   color: seashell;
+  text-align: center;
 }
 
 header {
@@ -11,6 +12,7 @@ header {
   position: fixed;
   height: 69px;
   border-bottom: 1px solid seashell;
+  background-color: black;
 }
 
 nav {
@@ -27,8 +29,27 @@ a {
   color: seashell;
 }
 
+h2, h3, h4 {
+  margin: 0;
+  padding: 10px;
+}
+
+
 .flex-container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+.content {
+  margin: auto;
+  background-color: black;
+  width: 100%;
+}
+
+#mission {
+  height: 700px;
+  background-image: url(file:///Users/kenessa/Desktop/CODE-projects/tea-cozy/resources/images/img-mission-background.jpg);
+  padding-top: 70px;
+  background-size: cover;
 }
