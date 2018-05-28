@@ -6,6 +6,7 @@ body {
   background-color: black;
   color: seashell;
   text-align: center;
+  margin: auto;
 }
 
 header {
@@ -15,7 +16,10 @@ header {
   height: 69px;
   border-bottom: 1px solid seashell;
   background-color: black;
+  top: 0px;
+  padding-top: 15px;
 }
+
 
 nav {
   text-align: right;
@@ -124,4 +128,5 @@ h2, h3, h4 {
 
 #contact {
   height: 200px;
+  padding-top: 15px;
 }
