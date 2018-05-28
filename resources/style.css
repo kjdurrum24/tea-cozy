@@ -1,3 +1,5 @@
+
+/* Header and Main CSS */
 body {
   font-family: Helvetica, sans-serif;
   font-size: 22px;
@@ -33,7 +35,9 @@ h2, h3, h4 {
   margin: 0;
   padding: 10px;
 }
-
+ div {
+   display: block;
+ }
 
 .flex-container {
   display: flex;
@@ -53,6 +57,8 @@ h2, h3, h4 {
   padding-top: 70px;
   background-size: cover;
 }
+
+/* Tea Cozy Products Section */
 
 .store {
   height: 700px;
@@ -75,4 +81,35 @@ h2, h3, h4 {
   display: block;
   padding: 5px;
   font-weight: bold;
+}
+
+/* Locations CSS */
+
+#locations {
+  background-image: url(file:///Users/kenessa/Desktop/CODE-projects/tea-cozy/resources/images/img-locations-background.jpg);
+  height: 500px;
+  padding: 70px;
+  background-size: cover;
+  text-shadow: 1px 3px 5px black;
+  background-position-y: -427px;
+}
+
+#locations .flex-container {
+  width: 1100px;
+  margin: auto;
+
+}
+.flex-container.address {
+  padding-top: 5px;
+}
+
+.address {
+  background-color: black;
+  flex-basis: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 5px 20px;
+  padding: 10px;
+  opacity: 1.0;
 }
